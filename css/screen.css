@@ -14,6 +14,14 @@ h1 {
   margin-top: 75px;
 }
 
+h1#pettrakr {
+  font-size: 96px;
+  font-style: italic;
+  color: #303030;
+  margin-left: 150px;
+  margin-top: 75px;
+}
+  
 form {
   margin-top: 40px;
 }
@@ -74,7 +82,7 @@ button#register {
 }
 
 button#save {
-  margin-left: 875px;
+  margin-left: 925px;
   margin-bottom: 50px;
 }
 
@@ -88,6 +96,12 @@ img#robot-dog {
   left: 775px;
   bottom: 45px;
 }
+
+img#robot-cat {
+  position: absolute;
+  bottom: 475px;
+  right: 200px;
+}
   
 p.congratulations {
   margin-top: 40px;
@@ -99,7 +113,7 @@ p.congratulations {
 
 p.instructions {
   margin-left: 150px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   font-size: 24px;
   color: #336699;
 }
@@ -130,7 +144,7 @@ fieldset.pettrakr {
   font:80%/1 sans-serif;
   background-color: D8D8D8;
   position: absolute;
-  bottom: 115px;
+  bottom: 75px;
   }
 
 #pettrakr fieldset input[type="text"] {
@@ -140,6 +154,7 @@ fieldset.pettrakr {
 table#congratulations {
   margin-left: 150px;
   margin-top: 25px;
+  margin-bottom: 15px;
 }
 
 table#congratulations td{
