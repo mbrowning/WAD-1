@@ -13,14 +13,6 @@ h1 {
 }
 
 form {
-  background-color: D8D8D8;
-}
-
-form#login {
-  margin-top: 40px;
-}
-
-form#register {
   margin-top: 40px;
 }
 
@@ -68,16 +60,16 @@ a:link {
 button {
   background-color: #D8D8D8;
   font-size: 16px;
-  text-align: center;
-  width: 100px;
-}
-
-button#go {
   margin-left: 50px;
 }
 
 button:hover {
   border-color: #006699;
+}
+
+button#register {
+  margin-left: 325px;
+  text-align: center;
 }
 
 img#robot-dog {
