@@ -1,3 +1,5 @@
+strong { font-weight: bold; }
+
 html {
   background-color: white;
   font-family: "Helvetica," Arial, sans-serif;
@@ -16,7 +18,7 @@ form {
   margin-top: 40px;
 }
 
-fieldset {
+fieldset.register {
   padding: 1em;
   margin-top: 20px;
   margin-left: 150px;
@@ -35,7 +37,6 @@ label {
   font-weight:bold;
   display: inline;
 }
-
   
 legend {
   color: #336699;
@@ -72,9 +73,89 @@ button#register {
   text-align: center;
 }
 
+button#save {
+  margin-left: 875px;
+  margin-bottom: 50px;
+}
+
+button#save2 {
+  margin-left: 950px;
+  margin-top: 25px;
+}
+
 img#robot-dog {
   position: absolute;
   left: 775px;
   bottom: 45px;
 }
   
+p.congratulations {
+  margin-top: 40px;
+  margin-left: 150px;
+  margin-bottom: 40px;
+  font-size: 24px;
+  color: #336699;
+}
+
+p.instructions {
+  margin-left: 150px;
+  margin-bottom: 40px;
+  font-size: 24px;
+  color: #336699;
+}
+
+ul#caretakers {
+  margin-left: 325px;
+}
+
+ul#caretakers li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 100px;
+}
+
+ul#pets {
+  margin-left:200px;
+  margin-top: 35px;
+}
+
+ul#pets li {
+margin-bottom: 50px;
+}
+
+fieldset.pettrakr {
+  padding: 1em;
+  margin-left: 275px;
+  width: 35em;
+  font:80%/1 sans-serif;
+  background-color: D8D8D8;
+  position: absolute;
+  bottom: 115px;
+  }
+
+#pettrakr fieldset input[type="text"] {
+  size: 35px;
+}
+
+table#congratulations {
+  margin-left: 150px;
+  margin-top: 25px;
+}
+
+table#congratulations td{
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+  background-color: #B8B8B8;
+}
+
+td#pettrakr {
+  padding: 15px;
+  font-style: italic;
+  font-size: 20px;
+  color: #336699;
+}
+
+td.label {
+}

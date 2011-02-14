@@ -2,6 +2,7 @@
 <meta charset="UTF-8">
 <html>
 <head>
+	
 	<link rel="stylesheet" type="text/css" media="screen, print" href="css/reset.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="css/base.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="css/screen.css" />
@@ -9,20 +10,61 @@
     <script src="example.js"></script>
     
 </head>
+
 <title>PetTrackr</title>
+
 <body>
+  
   <h1>PetTrakr</h1>
-  <p>Congratulations! You're now ready to digitally keep track of your pet(s)'s feeding schedule.</p>
-  <table border="1">
-    <tr><td>PetTrakr</td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td></tr></tr>
-    <tr><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td></tr></tr>
-    <tr><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td></tr></tr>
-    <tr><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td></tr></tr>
-    <tr><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td></tr></tr>
-    <tr><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td></tr></tr>
-    <tr><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td><td><input type="text" /></td></tr></tr>
-  </table>
-  <p>Just enter the time you fed your pet in the corresponding box. It's that easy!</p>
-  <button type="button"><a href="pettrakr.html">Finish</a></button>
+  
+  <p class="congratulations">Congratulations! You're now ready to digitally keep track of your pet's/pets' feeding.</p>
+  
+  <ul id="caretakers">
+    <li>Caretaker 1</li>
+    <li>Caretaker 2</li>
+    <li>Caretaker 3</li>
+    <li>Caretaker 4</li>
+  </ul>
+  
+  <ul id="pets">
+    <li>Pet 1</li>
+    <li>Pet 2</li>
+    <li>Pet 3</li>
+    <li>Pet 4</li>
+  </ul>
+  
+<form>
+  <fieldset class="pettrakr">
+    <br />
+    <input type="text" />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <input type="text" />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <input type="text" />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <input type="text" />
+    <br />
+    <br />
+    <br />
+    
+  </fieldset>
+</form>
+  
+  <p class="instructions">Just enter the time you fed your pet in the corresponding box. It's that easy!</p>
+  
+  <button id="save" type="button"><a href="pettrakr.htm">Save</a></button>
+  
 </body>
 </html>
