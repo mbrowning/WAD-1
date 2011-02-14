@@ -2,20 +2,52 @@
 <meta charset="UTF-8">
 <html>
 <head>
-<script src="js.js"></script>
+
+	<link rel="stylesheet" type="text/css" media="screen, print" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/base.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/screen.css" />
+	
+    <script src="js.js"></script>
+    
 </head>
 <title>PetTrackr</title>
+
 <body>
+
 <h1>PetTrakr</h1>
-<form>
+
+<form id="login">
   <fieldset>
     <legend>Login</legend>
-    Email: <input type="text" /><br />
-    Password: <input type="text" />
-  <button type="button"><a href="pettrakr.html">Login</a></button>
+    <label for="mail">Email:</label> 
+    <input type="text" name="mail" id="mail" />
+    <br />
+    <br />
+    <label for="password">Password:</label> 
+    <input type="text" name="password" id="password" />
+    <button id="go" type="button"><a href="pettrakr.htm">Go</a></button>
   </fieldset>
-<p>OR</p>
-<button type="button"><a href="register-1.html">Register</a></button>
 </form>
+
+<form id="register">
+  <fieldset>
+    <legend>Register</legend>
+    <label for="mail">Email:</label> 
+    <input type="text" name="mail" id="mail" />
+    <br />
+    <br />
+    <label for="password">Password:</label> 
+    <input type="text" name="password" id="password" />
+    <br />
+    <br />
+    <label for="password">Repeat Password:</label>
+    <input type="text" name="r-password" id="r-password" />
+    <button id="go" type="button"><a href="register-1.htm">Go</a></button>
+  </fieldset>
+</form>
+
+<img id="robot-dog" src="css/gfx/robot-dog.jpeg" alt="robot-dog"/>
+
 </body>
+
 </html>

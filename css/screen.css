@@ -1,0 +1,88 @@
+html {
+  background-color: white;
+  font-family: "Helvetica," Arial, sans-serif;
+  color: #303030;
+}
+
+h1 {
+  font-size: 56px;
+  font-style: italic;
+  color: #303030;
+  margin-left: 150px;
+  margin-top: 75px;
+}
+
+form {
+  background-color: D8D8D8;
+}
+
+form#login {
+  margin-top: 40px;
+}
+
+form#register {
+  margin-top: 40px;
+}
+
+fieldset {
+  padding: 1em;
+  margin-top: 20px;
+  margin-left: 150px;
+  width: 35em;
+  font:80%/1 sans-serif;
+  background-color: D8D8D8;
+  border: 1px solid #336699
+  }
+  
+label {
+  float:left;
+  width:25%;
+  margin-right:0.5em;
+  padding-top:0.2em;
+  text-align:right;
+  font-weight:bold;
+  display: inline;
+}
+
+  
+legend {
+  color: #336699;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  font-size: small;
+}
+
+a:visited {
+ color: #200000;
+ text-decoration: none;
+}
+
+a:link {
+ color: black;
+ padding: 32px 40px 12px 40px;
+}
+
+button {
+  background-color: #D8D8D8;
+  font-size: 16px;
+  text-align: center;
+  width: 100px;
+}
+
+button#go {
+  margin-left: 50px;
+}
+
+button:hover {
+  border-color: #006699;
+}
+
+img#robot-dog {
+  position: absolute;
+  left: 775px;
+  bottom: 45px;
+}
+  
