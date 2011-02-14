@@ -26,7 +26,7 @@ form {
   margin-top: 40px;
 }
 
-fieldset.register {
+fieldset {
   padding: 1em;
   margin-top: 20px;
   margin-left: 150px;
@@ -118,7 +118,7 @@ p.instructions {
   color: #336699;
 }
 
-ul#caretakers {
+ul#sortable {
   margin-left: 325px;
 }
 
