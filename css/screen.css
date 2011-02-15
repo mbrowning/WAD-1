@@ -109,7 +109,7 @@ img#robot-dog {
 
 img#robot-cat {
   position: absolute;
-  bottom: 430px;
+  bottom: 475px;
   right: 200px;
 }
   
@@ -158,7 +158,7 @@ fieldset.pettrakr {
   font:80%/1 sans-serif;
   background-color: D8D8D8;
   position: absolute;
-  bottom: 25px;
+  bottom: 70px;
   }
 
 #pettrakr fieldset input[type="text"] {
