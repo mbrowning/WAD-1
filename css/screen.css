@@ -26,7 +26,17 @@ form {
   margin-top: 40px;
 }
 
-fieldset {
+fieldset.login-register {
+  padding: 1em;
+  margin-top: 20px;
+  margin-left: 150px;
+  width: 35em;
+  font:80%/1 sans-serif;
+  background-color: D8D8D8;
+  border: 1px solid #336699
+  }
+  
+fieldset.register {
   padding: 1em;
   margin-top: 20px;
   margin-left: 150px;
@@ -122,6 +132,10 @@ ul#sortable {
   margin-left: 325px;
 }
 
+ul#caretakers {
+  margin-left: 325px
+}
+
 ul#caretakers li {
   display: inline;
   list-style-type: none;
@@ -170,7 +184,4 @@ td#pettrakr {
   font-style: italic;
   font-size: 20px;
   color: #336699;
-}
-
-td.label {
 }
